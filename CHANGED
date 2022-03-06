@@ -49,3 +49,7 @@ August 17, 2020
 	- Removed streaming support and multiple endpoint support for simplicity's sake
 	- Fixed Perl Warnings
 
+March 6, 20222
+
+    - Forked the repo from Stefan Willmeroth, thanks for all the effort
+    - Many refectorings, cleanups and bugfixes in the last months
