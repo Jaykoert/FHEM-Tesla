@@ -185,6 +185,7 @@ sub TeslaCar_Define($$) {
 sub TeslaCar_Init($) {
     my ($hash) = @_;
 
+    Log3 $hash->{NAME}, 2, "init";
     TeslaCar_UpdateStatus($hash);
 
     RemoveInternalTimer($hash);
